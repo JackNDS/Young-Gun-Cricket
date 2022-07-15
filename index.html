@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="description" content="Elite level Cricket Coaching. Young Gun Cricket is an industry leading coaching team and facility based in the south eastern suburbs of Melbourne.">
+    <title>Young Gun Cricket</title>
+</head>
+<body class="bg-YGCBackGround">
+    <div id="home" class="grid grid-rows-2 grid-cols-4">
+    <section class="showcase border-solid border-YGCLightGrey border-t-0 border-l-0 bg-gray-800 col-span-4 md:col-span-3 row-span-2" id="showcase">
+        <header>
+            <img class="logo" src="/img/ygclogo.webp" alt="">
+        </header>
+
+        <video src="/ycgvid.mp4" muted loop autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text mt-10 xs:mt-0">
+            <h3 class="text-3xl sm:text-4xl md:text-6xl tracking-tight font-matterbold">Melbourne's Best Coaching Facility</h3>
+            <p class="font-matterlight my-6 text-xl sm:text-2xl tracking-tight">1500sqm Cricket Centre, powered by state of the art technology.</p>
+            <a href="#section2"><button class="-ml-1 bg-red-600 shadow-lg rounded-full py-2 sm:py-4 px-6 hover:bg-red-900 transition duration-500 ease-in-out font-matterregular text-xl"">Explore YGC</button></a>
+        </div>
+
+        <ul class="social">
+            <li><a target="popup" name="facebook" href="https://www.facebook.com/youngguncricketcoaching"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a target="popup" name="instagram" href="https://www.instagram.com/youngguncricket/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a target="popup" name="twitter" href="https://twitter.com/youngguncricket"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a target="popup" name="youtube" href="https://www.youtube.com/channel/UCVsi07-BniDZsVJ2Pb0CRBQ"><i class="fa-brands fa-youtube"></i></a></li>
+        </ul>
+    </section>
+    <div class="coaching-link flex items-end font-matterbold text-2xl lg:text-3xl tracking-normal friend academy col-span-4 md:col-span-1 p-10 text-white" id="coaching"><a href="#home">
+        <p>Coaching</p>
+        <p class="text-lg font-matterlight tracking-tight">Programs for players of all ages</p>
+    </div></a>
+    <div id="lanehire" class="text-white flex items-end font-matterbold text-2xl lg:text-3xl tracking-tight friend lane-hire col-span-4 md:col-span-1 p-10 ">
+      <a onclick="window.open('https://youngguncricket.duktag.net/duktag/schedule.cfm?location=210','popup','width=700,height=700,left=350,top=100'); return false;" popup href="https://youngguncricket.duktag.net/duktag/schedule.cfm?location=210">  <p>Lane Hire</p>
+      <p class="text-lg font-matterlight tracking-tight">Book one of our Cricket Nets</p>
+        <p class="overlay2"></p>
+        <div class="shape"></div>
+    </a>
+    </div>
+
+    <div class="hidden md:block circle-navigation">
+        <a href="#home"><img class="ball" src="/img/cricket-ball-icon2.webp" alt="Cricket Coaching Melbourne"></a>
+        <a href="#section2"><img class="ball" src="/img/cricket-ball-icon2.webp" alt="Cricket Coaching Melbourne"></a>
+        <a href="#section3"><img class="ball" src="/img/cricket-ball-icon2.webp" alt="Cricket Coaching Melbourne"></a>
+        <a href="#contact"><img class="ball" src="/img/cricket-ball-icon2.webp" alt="Cricket Coaching Melbourne"></a>
+    </div>
+        
+
+    </div>
+    
+    <div class="sidebar">
+        <div class="down-arrow">
+             <img src="/img/navdown.png" alt="">
+        </div>
+    </div>
+
+    <button type="button" name="hamburger-menu" class="hamburger block" id="menu-btn">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+    </button>
+
+    <div id="menu" class="menu font-mattersemibold bg-YGCBackGround text-white text-center z-0">
+        <ul>
+            <li class="mb-3"><a href="#">Home</a></li>
+            <li class="mb-3"><a href="/about.html">About</a></li>
+            <li class="mb-3" id="coaching2"><a href="#">Coaching</a></li>
+            <li class="mb-3"><a href="#">India</a></li>
+            <li class="mb-3"><a href="facility.html">Facility</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="coaching-container" id="coaching-container">
+        <i class="fa-solid fa-xmark" id="coaching-x"></i>
+        <div class="coaching-choice">
+            <a href="/1-1-Coaching.html"><div class="coaching-one2one">
+               <h3 class="font-matterbold drop-shadow-lg text-lg sm:text-3xl ">1-1 Coaching</h3> 
+               <p class="font-matterregular mt-3 sm:mt-10 text-md sm:text-xl drop-shadow-lg">The fundamental aspect of YoungGun Cricket. Cultivating relationships and player development.</p>
+            </div></a>
+            <a href="/academies.html"><div class="coaching-academies">
+
+                <h3 class="font-matterbold drop-shadow-lg text-lg sm:text-3xl">Academies</h3> 
+               <p class="font-matterregular drop-shadow-lg mt-3 sm:mt-10 text-md sm:text-xl">A holistic coaching programme developed for players seeking their way to the professional game.</p>
+            </div></a>
+        </div>
+    </div>
+
+    <section id="section2" class="h-auto main-section bg-YGCBackGround">
+        <div class="explore">
+        <p class="text-YGCDarkGold text-center md:text-left text-xl ml-0 md:ml-0 mb-16 font-mattersemibold tracking-normal">EXPLORE YOUNG GUN CRICKET</p>
+        <img class="-mt-12 mb-16 hidden md:block"src="/img/icon-btn-active.jpeg" alt="">
+        </div>
+        <div class="card-container">
+            <div class="card" id="coaching3">
+                <a href="#">
+                <img src="/img/1-1Coaching.webp" alt="" class="desktop">
+                <span class="mask"></span>
+                <img src="/img/1-1coachingmobile.webp" alt="" class="mobile">
+                <span class="title font-mattersemibold tracking-normal">Coaching</span>
+                <span class="caption">
+                    <div class="triangle"></div>
+                    <div class="body">
+                        <span class="description font-matterregular tracking-tight">The bread and butter of Young Gun Cricket, choose from our many available coaching packages.</span>
+                        <span class="more"></span>
+                        <a href="#" class="more-mobile"></a>
+                    </div>
+                   
+                </span>
+                 </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                <img src="/img/india.webp" alt="" class="desktop">
+                <span class="mask"></span>
+                <img src="/img/indiamobile.webp" alt="" class="mobile">
+                <span class="title font-mattersemibold tracking-normal">India</span>
+                <span class="caption">
+                    <div class="triangle"></div>
+                    <div class="body">
+                        <span class="description font-matterregular tracking-tight">An amazing opportunity that offers senior cricketers the chance to explore their game in the worlds most testing and unique conditions.</span>
+                        <span class="more"></span>
+                        <a href="#" class="more-mobile"></a>
+                    </div>
+                </span>
+                </a>
+            </div>
+            <div class="card">
+                <a href="/team.html">
+                <img src="/img/ourteamdesktop.webp" alt="" class="desktop">
+                <span class="mask"></span>
+                <img src="/img/ourteam.webp" alt="" class="mobile">
+                <span class="title font-mattersemibold tracking-normal">Our Team
+                </span>
+                <span class="caption">
+                    <div class="triangle"></div>
+                    <div class="body">
+                        <span class="description font-matterregular tracking-tight">Meet the Young Gun Coaching Staff. Highly motivated professionals who live and breathe Cricket.</span>
+                        <span class="more"></span>
+                        <a href="#" class="more-mobile"></a>
+                    </div>
+                </span>
+                </a>    
+            </div>
+            <div class="card">
+                <a href="facility.html">
+                <img src="/img/facility.webp" alt="" class="desktop">
+                <span class="mask"></span>
+                <img src="/img/facilitymobile.webp" alt="" class="mobile">
+                <span class="title font-mattersemibold tracking-normal">Facility</span>
+                <span class="caption">
+                    <div class="triangle"></div>
+                    <div class="body">
+                        <span class="description font-matterregular tracking-tight">Check out our industry leading facility, with state-of-the-art technology, fully equipped gym and spectator viewing area.</span>
+                        <span class="more"></span>
+                        <a href="#" class="more-mobile"></a>
+                    </div>
+                </span>
+                </a>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section class="section3">
+        <div class="explore">
+            <p class="text-YGCDarkGold text-xl ml-0 mb-16 font-mattersemibold text-center md:text-left tracking-normal">OUR PARTNERS</p>
+            <img class="-mt-12 mb-0 hidden md:block"src="/img/icon-btn-active.jpeg" alt="">
+        </div>
+        <div class="partner-container" id="section3">
+            <div class="partner">
+                <img src="/img/per4ormwhitesquare.webp" alt="">
+            </div>
+            <div class="partner">
+                <img src="/img/cplsquare.webp" alt="">
+            </div>
+            <div class="partner">
+                <img src="/img/xpssquare.webp" alt="">
+            </div>
+            <div class="partner">
+                <img src="/img/duktagsquare.webp" alt="">
+            </div>
+            <div class="partner">
+                <img src="/img/richmondsquare.webp" alt="">
+            </div>
+            <div class="partner">
+                <img src="/img/jndssqaure.webp" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="section-slide" id="testimonials">
+        <p class="text-YGCDarkGold text-xl text-center font-mattersemibold tracking-widest mt-20">FEEDBACK</p>
+        <div class="slider bg-YGCDarkGold py-32 w-full mb-16 mt-8">
+           
+            <div class="slide current">
+                <div class="content px-6 md:px-32 font-mattersemibold text-md sm:text-xl lg:text-2xl xl:text-3xl text-center text-YGCBackGround">
+                    <h1>"A must if you are serious about lifting your game. Just had my first coaching session with amazing results. Brilliant video technology helps as well. I highly recommend!"</h1>
+                    <p class="mt-2 sm:mt-10 text-lg md:text-xl font-matterlight text-center text-YGCBackGround ">- Geoff Craig</p>
+                </div>
+             </div>
+            <div class="slide">
+                <div class="content px-6 md:px-32 font-mattersemibold text-md sm:text-xl lg:text-2xl xl:text-3xl text-center text-YGCBackGround">
+                    <h1>"Huge amount of technology to help pin point and explain how much you have improved over time. Chris is great, my son loved his 1st session with him today."</h1>
+                    <p class="mt-2 sm:mt-10 text-lg md:text-xl font-matterlight text-center text-YGCBackGround ">- Mathew Murphy</p>
+                </div>
+             </div>
+            <div class="slide">
+                <div class="content px-6 md:px-32 font-mattersemibold text-md sm:text-xl lg:text-2xl xl:text-3xl text-center text-YGCBackGround">
+                    <h1>"Played cricket for 30 years and learnt so much in 4 hours today watching Shannon doing his thing with the young players from my club."</h1>
+                    <p class="mt-2 sm:mt-10 text-lg md:text-xl font-matterlight text-center text-YGCBackGround  ">- Paul Trevaskis</p>
+                </div>
+             </div>
+            <div class="slide">
+                <div class="content px-6 md:px-32 font-mattersemibold text-md sm:text-xl lg:text-2xl xl:text-3xl text-center text-YGCBackGround">
+                    <h1>"After his first session, my son feels he can improve on his skills! The coaches are very patient and thorough. Totally impressed."</h1>
+                    <p class="mt-2 sm:mt-10 text-lg md:text-xl font-matterlight text-center text-YGCBackGround  ">- Kylie Carapeto</p>
+                </div>
+             </div>
+        </div>
+        <div class="buttons">
+            <button name="previous" id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button name="next" id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <p class="text-YGCDarkGold text-xl text-center font-mattersemibold tracking-widest pt-12 mb-4 md:-mb-28 ">CONTACT</p>
+        <div class="contact-container">
+            <div class="form">
+                <div class="contact-info font-matterregular">
+                    <h3 class="text-center md:text-left contact-title text-YGCRed">Elite Cricket Coaching</h3>
+                    <p class="text-center md:text-left contact-text">If you are looking to take your game to the next level, YoungGun Cricket is your answer.</p>
+
+                    <div class="info">
+                        <div class="information">
+                            <i class="icon fa-solid fa-location-dot"></i>
+                            <p>32 Levanswell Rd | Moorabbin | VIC | 3189</p>
+                        </div>
+                        <div class="information">
+                            <i class="icon fa-solid fa-envelope"></i>
+                            <p><a href="mailto:info@youngguncricket.com.au""> info@youngguncricket.com.au</a></p>
+                        </div>
+                        <div class="information">
+                            <i class="icon fa-solid fa-phone"></i>
+                            <p>1300 YoungGun (1300 968 644)</p>
+                        </div>
+                    </div>
+
+                    <div class="text-center md:text-left contact-socials text-YGCRed">Connect with us: <br><br>
+                        <ul class="social">
+                            <li><a target="popup" name="facebook" href="https://www.facebook.com/youngguncricketcoaching"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a target="popup" name="instagram" href="https://www.instagram.com/youngguncricket/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a target="popup" name="twitter" href="https://twitter.com/youngguncricket"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a target="popup" name="youtube" href="https://www.youtube.com/channel/UCVsi07-BniDZsVJ2Pb0CRBQ"><i class="fa-brands fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="contact-form font-matterregular">
+                    <span class="circle one"></span>
+                    <span class="circle two"></span>
+
+                    <form action="index.html">
+                        <h3 class=" text-center md:text-left title">Contact Us</h3>
+                        <div class="input-container">
+                            <label for="">Username</label>
+                            <span>Username</span>
+                            <input type="text" name="name" class="input">
+                        </div>
+                        <div class="input-container">
+                            
+                            <label for="">Email</label>
+                            <span>Email</span>
+                            <input type="email" name="email" class="input">
+                        </div>
+                        <div class="input-container">
+                            
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                            <input type="tel" name="phone" class="input">
+                        </div>
+                        <div class="input-container textarea">
+                            
+                            <label for="">Message</label>
+                            <span>Message</span>
+                            <textarea name="message" class="input"></textarea>
+                        </div>
+                        <input type="submit" value="Send" class=" contact-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-container">
+            <div class="refund text-YGCDarkGold font-matterlight">
+                <a target="popup"href="https://www.youngguncricket.com.au/_files/ugd/6e5a2b_038f0221108e4b48be9574e2af70a66b.pdf">Refund Policy</a>
+            </div>
+            <div class="footer-img">
+                <img src="/img/ygclogo.webp" alt="">
+            </div>
+            <div class="privacy text-YGCDarkGold font-matterlight">
+                <a target="popup" href="https://www.youngguncricket.com.au/_files/ugd/6e5a2b_08231d6997eb427c98e06e3b6fceef7d.pdf">Privacy Policy</a>
+            </div>
+            
+        </div>
+    </section>
+        
+    
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
