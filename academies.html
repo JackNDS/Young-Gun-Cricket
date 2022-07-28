@@ -131,7 +131,11 @@
                     <span class="circle one"></span>
                     <span class="circle two"></span>
 
-                    <form action="index.html">
+                    <form action="index.html" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                         <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                        </p>
                         <h3 class=" text-center md:text-left title">Contact Us</h3>
                         <div class="input-container">
                             <label for="">Username</label>
@@ -145,13 +149,10 @@
                             <input type="email" name="email" class="input">
                         </div>
                         <div class="input-container">
-                            <select class="font-matterregular" name="package" id="package">
-                                    <option value="1">High Performance</option>
-                                    <option value="2">Foundation Package</option>
-                                    <option value="3">One Off Coaching</option>
-                                    <option value="4">Elite Coaching</option>
-                            </select>
                             
+                            <label for="">Phone</label>
+                            <span>Phone</span>
+                            <input type="tel" name="phone" class="input">
                         </div>
                         <div class="input-container textarea">
                             

@@ -170,6 +170,10 @@ html, body {
     visibility: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 .menu.open{
     opacity: 1;
     transform: translateX(0%);

@@ -149,7 +149,11 @@
                     <span class="circle one"></span>
                     <span class="circle two"></span>
 
-                    <form action="index.html">
+                    <form action="index.html" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+                        <input type="hidden" name="form-name" value="contact">
+                         <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                        </p>
                         <h3 class=" text-center md:text-left title">Contact Us</h3>
                         <div class="input-container">
                             <label for="">Username</label>
