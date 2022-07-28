@@ -159,6 +159,7 @@ html, body {
     right: 0;
     transform: translateX(100%);
     width: 30%;
+    opacity: 0;
     display: flex;
     align-items: center;
     z-index: 1;
@@ -166,11 +167,14 @@ html, body {
     transition: 0.3s ease-in-out;
     min-height: 97vh;
     border-left: solid 1px #6F6F6F;
+    visibility: hidden;
 }
 
 .menu.open{
+    opacity: 1;
     transform: translateX(0%);
     z-index: 12;
+    visibility: visible;
 }
 
 .menu ul{
