@@ -745,11 +745,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -934,7 +929,7 @@ html, body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .about-img{
@@ -2569,10 +2564,6 @@ textarea.input {
 }
 
 @media (min-width: 1440px) {
-  .xl\:mt-0 {
-    margin-top: 0px;
-  }
-
   .xl\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
